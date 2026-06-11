@@ -2,7 +2,7 @@
 
 6-month skill acquisition plan, built for visible accountability.
 
-**Target:** AI-adjacent Senior QA / QE role, $100K+, remote or Ontario-based.
+**Target:** AI-adjacent Senior QA / QE role, remote or Ontario-based.
 **Cadence:** 2-week ship cycles.
 **Started:** 2026-06-08 (Cycle 1)
 **Plan target completion:** 2026-11-22 (end of Cycle 12)
