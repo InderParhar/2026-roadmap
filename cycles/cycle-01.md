@@ -6,8 +6,8 @@
 
 ## Tasks
 
-- [ ] Create `2026-roadmap` repo and push to GitHub (this repo)
-- [ ] Pin repo to GitHub profile
+- [x] Create `2026-roadmap` repo and push to GitHub (this repo)
+- [x] Pin repo to GitHub profile
 - [ ] Book ISTQB Foundation (CTFL v4.0) exam for Sat 2026-07-18
 - [ ] Save exam confirmation email
 - [ ] Configure scheduled Claude routine — runs Sunday 7 PM, posts status issue here
