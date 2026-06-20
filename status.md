@@ -21,3 +21,14 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] Save exam confirmation email
   - [ ] Configure scheduled Claude routine — runs Sunday 7 PM, posts status issue here
 - Risk: tight — 3 of 5 tasks remain with 7 days left; exam booking requires external action this week.
+
+---
+
+## 2026-06-20 (Cycle 1, week 2 of 2) — Auto check
+
+- Tasks: 3 of 5 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] Book ISTQB Foundation (CTFL v4.0) exam for Sat 2026-07-18
+  - [ ] Save exam confirmation email
+- Risk: tight — cycle closes tomorrow with 2 tasks outstanding; both are marked deferred in the cycle file but remain unchecked.
