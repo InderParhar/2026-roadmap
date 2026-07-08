@@ -46,3 +46,23 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] Convert one existing Playwright Java test from `inderparhar.dev` repo to Playwright TypeScript
   - [ ] Push the TS test in a new branch on the Website repo
 - Risk: slipping — 0 of 5 tasks started with 6 days elapsed; all tasks remain with 8 days left.
+
+---
+
+## 2026-07-07 (Cycle 3, week 1 of 2) — Manual entry
+
+- **ISTQB:** Full syllabus PDF complete (Chapters 1–6). Multiple quizzes taken per section, decent results. Remaining before exam: 1 full timed mock (40q/60min) + final prep this weekend (2026-07-11/12). Exam still booked for Sat 2026-07-18.
+- **Pact:** Started learning — contract testing basics (Cycle 2 work-driven carryover, in progress).
+- **Playwright:** Started learning basics (Cycle 2 carryover — TS conversion task not yet done).
+- Risk: on track for ISTQB — syllabus done ahead of the timed-mock milestone. Watch: first Claude Code skill (Cycle 3 ship) not yet started; Pact + Playwright TS still open from Cycle 2.
+
+---
+
+## 2026-07-07 (Cycle 3) — Manual entry: SDET integration decision
+
+- Added an SDET track to the roadmap (Cycles 4–12), interleaved — QE target unchanged. Design: `docs/2026-07-07-sdet-integration-design.md`.
+- **Track A (Python DSA):** continuous from Cycle 4 — repo `python-dsa`, pytest per solution (doubles as whitebox/unit reps). Note: Pact ≠ whitebox/unit; app-repo integration artifact deliberately skipped.
+- **Track B (Performance):** one Locust load test in Cycle 6 (extended to 3 weeks).
+- **Track C (System Design, test/infra):** study Cycles 8–11, feeds the Cycle 11 interview-prep doc.
+- **Timeline:** Cycles 6 and 11 → 3 weeks; plan end moves 2026-11-22 → **2026-12-06**.
+- Target: interview-ready for mid/senior SDET **in addition to** QE by schedule end.

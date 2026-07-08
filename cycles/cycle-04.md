@@ -12,6 +12,7 @@
 - [ ] README v1: what it tests, how to run, architecture sketch
 - [ ] Draft Sagacity PoC proposal: which area to PoC, time-box, success criteria
 - [ ] Send proposal to team / manager — get a yes/no/discuss reply
+- [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
 
 ## Done when
 

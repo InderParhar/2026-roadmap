@@ -2,10 +2,10 @@
 
 6-month skill acquisition plan, built for visible accountability.
 
-**Target:** AI-adjacent Senior QA / QE role, remote or Ontario-based.
-**Cadence:** 2-week ship cycles.
+**Target:** AI-adjacent Senior QA / QE role, remote or Ontario-based — plus mid/senior SDET interview parity (see [docs/2026-07-07-sdet-integration-design.md](docs/2026-07-07-sdet-integration-design.md)).
+**Cadence:** 2-week ship cycles (Cycles 6 and 11 run 3 weeks).
 **Started:** 2026-06-08 (Cycle 1)
-**Plan target completion:** 2026-11-22 (end of Cycle 12)
+**Plan target completion:** 2026-12-06 (end of Cycle 12)
 
 ## How this works
 
@@ -22,20 +22,20 @@ Full design and failure protocol live in the spec (private repo).
 - [ ] **Cycle 1** — Weeks 1–2 — Foundation — due 2026-06-21
 - [ ] **Cycle 2** — Weeks 3–4 — ISTQB Push — due 2026-07-05
 - [ ] **Cycle 3** — Weeks 5–6 — Exam + First Skill — due 2026-07-19
-- [ ] **Cycle 4** — Weeks 7–8 — Framework Skeleton + Work PoC — due 2026-08-02
-- [ ] **Cycle 5** — Weeks 9–10 — Framework Depth: Fixtures + Config — due 2026-08-16
-- [ ] **Cycle 6** — Weeks 11–12 — Framework Depth: API + Reporting — due 2026-08-30
-- [ ] **Cycle 7** — Weeks 13–14 — Second Claude Code Skill — due 2026-09-13
-- [ ] **Cycle 8** — Weeks 15–16 — OSS PR Round + Framework Polish — due 2026-09-27
-- [ ] **Cycle 9** — Weeks 17–18 — Third Skill + Metrics — due 2026-10-11
-- [ ] **Cycle 10** — Weeks 19–20 — Begin Applications — due 2026-10-25
-- [ ] **Cycle 11** — Weeks 21–22 — Interview Pipeline — due 2026-11-08
-- [ ] **Cycle 12** — Weeks 23–24 — Decide What's Next — due 2026-11-22
+- [ ] **Cycle 4** — Weeks 7–8 — Framework Skeleton + Work PoC — due 2026-08-02 · _SDET: DSA track starts_
+- [ ] **Cycle 5** — Weeks 9–10 — Framework Depth: Fixtures + Config — due 2026-08-16 · _SDET: DSA_
+- [ ] **Cycle 6** — Weeks 11–13 — Framework Depth: API + Reporting — due 2026-09-06 · _SDET: DSA + Locust load test · 3-week cycle_
+- [ ] **Cycle 7** — Weeks 14–15 — Second Claude Code Skill — due 2026-09-20 · _SDET: DSA_
+- [ ] **Cycle 8** — Weeks 16–17 — OSS PR Round + Framework Polish — due 2026-10-04 · _SDET: DSA + System Design study_
+- [ ] **Cycle 9** — Weeks 18–19 — Third Skill + Metrics — due 2026-10-18 · _SDET: DSA + System Design_
+- [ ] **Cycle 10** — Weeks 20–21 — Begin Applications — due 2026-11-01 · _SDET: DSA (timed) + System Design_
+- [ ] **Cycle 11** — Weeks 22–24 — Interview Pipeline — due 2026-11-22 · _SDET: mock coding loops + System Design doc · 3-week cycle_
+- [ ] **Cycle 12** — Weeks 25–26 — Decide What's Next — due 2026-12-06 · _SDET go/no-go_
 
 ## Current Cycle
 
-**Cycle 1** — Foundation
-Detail → [cycles/cycle-01.md](cycles/cycle-01.md)
+**Cycle 3** — Exam + First Skill
+Detail → [cycles/cycle-03.md](cycles/cycle-03.md)
 
 ## Last Status Check
 

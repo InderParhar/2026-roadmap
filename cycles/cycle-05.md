@@ -10,6 +10,7 @@
 - [ ] Read base URL + credentials from `.env` — never hardcode
 - [ ] Refactor 3 tests to use soft assertions
 - [ ] README: add "Architecture Decisions" section — 3 decisions with the WHY
+- [ ] **SDET / Track A:** ~3 problems/week (two-pointer, sorting/searching) in `python-dsa`, each with pytest, CI green.
 
 ## Done when
 
