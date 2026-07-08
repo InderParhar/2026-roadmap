@@ -49,6 +49,7 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
 
 ---
 
+<<<<<<< HEAD
 ## 2026-07-07 (Cycle 3, week 1 of 2) — Manual entry
 
 - **ISTQB:** Full syllabus PDF complete (Chapters 1–6). Multiple quizzes taken per section, decent results. Remaining before exam: 1 full timed mock (40q/60min) + final prep this weekend (2026-07-11/12). Exam still booked for Sat 2026-07-18.
@@ -66,3 +67,14 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
 - **Track C (System Design, test/infra):** study Cycles 8–11, feeds the Cycle 11 interview-prep doc.
 - **Timeline:** Cycles 6 and 11 → 3 weeks; plan end moves 2026-11-22 → **2026-12-06**.
 - Target: interview-ready for mid/senior SDET **in addition to** QE by schedule end.
+=======
+## 2026-07-04 (Cycle 2, week 2 of 2) — Auto check
+
+- Tasks: 4 of 7 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] Convert one existing Playwright Java test from `inderparhar.dev` repo to Playwright TypeScript
+  - [ ] Push the TS test in a new branch on the Website repo
+  - [ ] Learn Pact for contract testing (consumer-driven contracts) — added for a work reason
+- Risk: slipping — cycle closes tomorrow with 3 of 7 tasks outstanding; Playwright TS conversion and Pact learning are unlikely to complete in 1 day.
+>>>>>>> 3cc2be9040236469550e43784a2064ff8758802b
