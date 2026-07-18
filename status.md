@@ -92,3 +92,17 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] Build + publish first Claude Code skill (`playwright-test-from-jira`)
   - [ ] Skill ships as: public GitHub repo with README, example input/output, install instructions
 - Risk: tight — exam is 7 days away and the first skill has not been started; both the timed mock and the full skill build must complete within this cycle.
+
+---
+
+## 2026-07-18 (Cycle 3, week 2 of 2) — Auto check
+
+- Tasks: 1 of 6 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] 1 full timed mock exam (40 questions / 60 min), score ≥ 75%
+  - [ ] Sat 2026-07-18: sit ISTQB exam
+  - [ ] On pass: add cert badge to LinkedIn
+  - [ ] Build + publish first Claude Code skill (`playwright-test-from-jira`)
+  - [ ] Skill ships as: public GitHub repo with README, example input/output, install instructions
+- Risk: slipping — cycle closes tomorrow with 5 of 6 tasks outstanding; the Claude Code skill has not been started.
