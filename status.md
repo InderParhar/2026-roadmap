@@ -106,3 +106,19 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] Build + publish first Claude Code skill (`playwright-test-from-jira`)
   - [ ] Skill ships as: public GitHub repo with README, example input/output, install instructions
 - Risk: slipping — cycle closes tomorrow with 5 of 6 tasks outstanding; the Claude Code skill has not been started.
+
+---
+
+## 2026-07-25 (Cycle 4, week 1 of 2) — Auto check
+
+- Tasks: 0 of 7 done
+- Days remaining in cycle: 8
+- Outstanding tasks:
+  - [ ] New repo: `playwright-ts-framework` (public, MIT)
+  - [ ] Skeleton: `playwright.config.ts`, 5 passing tests against a public demo target (e.g. `demo.playwright.dev/todomvc`)
+  - [ ] GitHub Actions CI green on every push
+  - [ ] README v1: what it tests, how to run, architecture sketch
+  - [ ] Draft Sagacity PoC proposal: which area to PoC, time-box, success criteria
+  - [ ] Send proposal to team / manager — get a yes/no/discuss reply
+  - [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
+- Risk: slipping — 0 of 7 tasks started with 5 days elapsed; the PoC proposal requires an external reply before that task can close, and 8 days remain.
