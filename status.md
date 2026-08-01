@@ -122,3 +122,19 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] Send proposal to team / manager — get a yes/no/discuss reply
   - [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
 - Risk: slipping — 0 of 7 tasks started with 5 days elapsed; the PoC proposal requires an external reply before that task can close, and 8 days remain.
+
+---
+
+## 2026-08-01 (Cycle 4, week 2 of 2) — Auto check
+
+- Tasks: 0 of 7 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] New repo: `playwright-ts-framework` (public, MIT)
+  - [ ] Skeleton: `playwright.config.ts`, 5 passing tests against a public demo target (e.g. `demo.playwright.dev/todomvc`)
+  - [ ] GitHub Actions CI green on every push
+  - [ ] README v1: what it tests, how to run, architecture sketch
+  - [ ] Draft Sagacity PoC proposal: which area to PoC, time-box, success criteria
+  - [ ] Send proposal to team / manager — get a yes/no/discuss reply
+  - [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
+- Risk: slipping — 0 of 7 tasks remain with only 1 day left in the cycle; the framework repo and DSA repo have not been created.
