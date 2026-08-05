@@ -49,6 +49,18 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
 
 ---
 
+## 2026-07-04 (Cycle 2, week 2 of 2) — Auto check
+
+- Tasks: 4 of 7 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] Convert one existing Playwright Java test from `inderparhar.dev` repo to Playwright TypeScript
+  - [ ] Push the TS test in a new branch on the Website repo
+  - [ ] Learn Pact for contract testing (consumer-driven contracts) — added for a work reason
+- Risk: slipping — cycle closes tomorrow with 3 of 7 tasks outstanding; Playwright TS conversion and Pact learning are unlikely to complete in 1 day.
+
+---
+
 ## 2026-07-07 (Cycle 3, week 1 of 2) — Manual entry
 
 - **ISTQB:** Full syllabus PDF complete (Chapters 1–6). Multiple quizzes taken per section, decent results. Remaining before exam: 1 full timed mock (40q/60min) + final prep this weekend (2026-07-11/12). Exam still booked for Sat 2026-07-18.
@@ -69,35 +81,60 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
 
 ---
 
-## 2026-07-12 (Cycle 3, week 1 of 2) — Manual entry: learning-track progress
+## 2026-07-11 (Cycle 3, week 1 of 2) — Auto check
 
-- **Playwright:** Now learning via LinkedIn Learning "Learning Playwright" course. Past setup/basics — at the **start of writing tests**. Note: this is the JS/TS Playwright, feeds the still-open Cycle 2 TS-conversion carryover.
-- **Pact:** Working through the generated decks — currently on **deck 3** of the contract-testing series (work-driven carryover).
-- **Java:** Started fundamentals practice on **codingbat.com** (new, self-driven rep work — supports the SDET track / future framework code).
-- Risk: on track for ISTQB (exam Sat 2026-07-18). These three are learning-in-progress, not yet tied to shippable Cycle 3 tasks (skill + exam still the cycle deliverables).
-
----
-
-## 2026-07-28 (Cycle 4, week 2 of 2) — Manual entry / re-baseline
-
-Re-baselined after a two-cycle drift. Root cause: TypeScript sat on the critical path (Playwright-TS carried since Cycle 2) and too many parallel fronts while personal-life events cost time.
-
-- **Cycle 3:** slipped → **grace cycle used** (1 of 2). ISTQB was fully prepped but never booked/sat; first Claude Code skill never started. Both folded forward.
-- **ISTQB:** decision — sit it anyway (prep is sunk, marginal cost ~1 fee + 1 hr; it's a filter-passer, not a differentiator). Book earliest seat in Cycle 4. No further study investment.
-- **Framework:** switched TS → **Playwright Java** for v0. Java is already known, so v0 ships now; TS port becomes README future-work. Removes the recurring blocker outright.
-- **Deferred:** first Claude Code skill → next cycle; **SDET/DSA track → Cycle 5** (was Cycle 4) to stop opening new fronts mid-recovery.
-- **Pact:** continue — has a work forcing-function.
-- Risk: recoverable. Cycle 4 deliverables (Java framework v0 + booked exam) are both achievable with known tools.
+- Tasks: 1 of 6 done
+- Days remaining in cycle: 8
+- Outstanding tasks:
+  - [ ] 1 full timed mock exam (40 questions / 60 min), score ≥ 75%
+  - [ ] Sat 2026-07-18: sit ISTQB exam
+  - [ ] On pass: add cert badge to LinkedIn
+  - [ ] Build + publish first Claude Code skill (`playwright-test-from-jira`)
+  - [ ] Skill ships as: public GitHub repo with README, example input/output, install instructions
+- Risk: tight — exam is 7 days away and the first skill has not been started; both the timed mock and the full skill build must complete within this cycle.
 
 ---
 
-## 2026-08-05 (Cycle 5, week 1 of 2) — Manual entry: Playwright Assignment 02 shipped
+## 2026-07-18 (Cycle 3, week 2 of 2) — Auto check
 
-The Cycle 4 re-baseline worked. Framework v0 + CI are real and green — landed 2026-08-03/05, a few days past the 08-02 due date.
+- Tasks: 1 of 6 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] 1 full timed mock exam (40 questions / 60 min), score ≥ 75%
+  - [ ] Sat 2026-07-18: sit ISTQB exam
+  - [ ] On pass: add cert badge to LinkedIn
+  - [ ] Build + publish first Claude Code skill (`playwright-test-from-jira`)
+  - [ ] Skill ships as: public GitHub repo with README, example input/output, install instructions
+- Risk: slipping — cycle closes tomorrow with 5 of 6 tasks outstanding; the Claude Code skill has not been started.
 
-- **Framework:** `assignment-02-todomvc-framework` — 5 Playwright-Java tests vs `demo.playwright.dev/todomvc`, `mvn test` green (5 run / 0 failures / 20.9s). JUnit 5 lifecycle: one browser per class, fresh `BrowserContext` per test (order-independent), headless auto-flipped by the `CI` env var. No `Thread.sleep` anywhere.
-- **CI (the new skill):** `test.yaml` — push/PR, ubuntu-latest, JDK 17 temurin + Maven cache, Playwright browser install on the runner, `mvn test`, surefire artifacts uploaded **only** `if: failure()`. Nothing masked with `|| true`.
-- **GitHub Actions depth (unplanned bonus):** four more workflows exercised for real — trigger surface incl. cron + `workflow_dispatch` (`lab1`), a 2-OS × 3-Node build matrix (`lab2`), and reusable workflows via `workflow_call` with typed inputs + `secrets: inherit` (`reusable` + `lab3`). This went well past the assignment's ask.
-- **Not done — carried to Cycle 5:** no README (so no CI badge, no TS-port note), and the code sits in `Github_Actions1` rather than a public `playwright-java-framework` repo. Two tests use **positional XPath**, and `activeFilterHidesCompletedTodos` never clicks the filter or asserts on it — it is green without testing anything. Fix before layering fixtures on top.
-- **ISTQB:** still not booked. Second cycle carrying it.
-- Risk: **on track, with a quality caveat.** The blocker that killed Cycles 2–3 (TS on the critical path) is gone and shipping resumed. Watch: a green suite that doesn't assert is worse than a red one — the carryover list is the cost of counting Cycle 4 as shipped.
+---
+
+## 2026-07-25 (Cycle 4, week 1 of 2) — Auto check
+
+- Tasks: 0 of 7 done
+- Days remaining in cycle: 8
+- Outstanding tasks:
+  - [ ] New repo: `playwright-ts-framework` (public, MIT)
+  - [ ] Skeleton: `playwright.config.ts`, 5 passing tests against a public demo target (e.g. `demo.playwright.dev/todomvc`)
+  - [ ] GitHub Actions CI green on every push
+  - [ ] README v1: what it tests, how to run, architecture sketch
+  - [ ] Draft Sagacity PoC proposal: which area to PoC, time-box, success criteria
+  - [ ] Send proposal to team / manager — get a yes/no/discuss reply
+  - [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
+- Risk: slipping — 0 of 7 tasks started with 5 days elapsed; the PoC proposal requires an external reply before that task can close, and 8 days remain.
+
+---
+
+## 2026-08-01 (Cycle 4, week 2 of 2) — Auto check
+
+- Tasks: 0 of 7 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] New repo: `playwright-ts-framework` (public, MIT)
+  - [ ] Skeleton: `playwright.config.ts`, 5 passing tests against a public demo target (e.g. `demo.playwright.dev/todomvc`)
+  - [ ] GitHub Actions CI green on every push
+  - [ ] README v1: what it tests, how to run, architecture sketch
+  - [ ] Draft Sagacity PoC proposal: which area to PoC, time-box, success criteria
+  - [ ] Send proposal to team / manager — get a yes/no/discuss reply
+  - [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
+- Risk: slipping — 0 of 7 tasks remain with only 1 day left in the cycle; the framework repo and DSA repo have not been created.
