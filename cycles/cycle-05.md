@@ -1,8 +1,18 @@
 # Cycle 5 — Framework Depth: Fixtures + Config
 
 **Weeks:** 9–10 (2026-08-03 → 2026-08-16)
-**Status:** pending
+**Status:** in progress (started 2026-08-03)
 **Ship:** Custom fixtures, env config (dotenv), soft assertions, README "Architecture Decisions" section.
+
+> **Note (2026-08-05):** Cycle 4's framework + CI landed 1–3 days into this cycle. Do the carryover below **first** — fixtures and config on top of a repo with no README and two weak tests is building on sand.
+
+## Carryover from Cycle 4 (do first)
+
+- [ ] Extract the framework into public `playwright-java-framework` (MIT) — currently inside `Github_Actions1`
+- [ ] README v1: what it tests, how to run, architecture sketch, CI badge, "TS port — future work"
+- [ ] Kill positional XPath in `clearCompletedRemovesOnlyCompletedTodos` + `activeFilterHidesCompletedTodos`
+- [ ] Fix `activeFilterHidesCompletedTodos` (green but asserts nothing about the filter) and add test 4's missing post-clear assertion
+- [ ] Prove CI can fail: deliberate red push, confirm surefire artifacts upload
 
 ## Tasks
 

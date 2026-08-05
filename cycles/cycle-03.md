@@ -1,8 +1,10 @@
 # Cycle 3 — Exam + First Skill
 
 **Weeks:** 5–6 (2026-07-06 → 2026-07-19)
-**Status:** in progress
+**Status:** slipped — **grace cycle used** (1 of 2). Re-baselined 2026-07-28.
 **Ship:** ISTQB Foundation exam PASSED; first public Claude Code skill published.
+
+> **Grace note (2026-07-28):** Slipped for personal reasons. Prep was fully complete but the exam was never booked/sat, and the first skill wasn't started. Both fold forward: ISTQB booking moves to Cycle 4; first skill moves to the cycle after. Grace used = no recorded slip, no failure protocol.
 
 ## Tasks
 

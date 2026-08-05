@@ -21,9 +21,9 @@ Full design and failure protocol live in the spec (private repo).
 
 - [ ] **Cycle 1** — Weeks 1–2 — Foundation — due 2026-06-21
 - [ ] **Cycle 2** — Weeks 3–4 — ISTQB Push — due 2026-07-05
-- [ ] **Cycle 3** — Weeks 5–6 — Exam + First Skill — due 2026-07-19
-- [ ] **Cycle 4** — Weeks 7–8 — Framework Skeleton + Work PoC — due 2026-08-02 · _SDET: DSA track starts_
-- [ ] **Cycle 5** — Weeks 9–10 — Framework Depth: Fixtures + Config — due 2026-08-16 · _SDET: DSA_
+- [ ] **Cycle 3** — Weeks 5–6 — Exam + First Skill — due 2026-07-19 · _grace cycle used (personal-life slip); ISTQB booking + first skill folded forward_
+- [X] **Cycle 4** — Weeks 7–8 — Framework Skeleton (Java) + Book ISTQB — due 2026-08-02 · _shipped late (2026-08-05): 5 Playwright-Java tests + GitHub Actions CI green. README, public repo split, ISTQB booking → carried to Cycle 5_
+- [ ] **Cycle 5** — Weeks 9–10 — Framework Depth: Fixtures + Config — due 2026-08-16 · _in progress · SDET: DSA track starts here · Cycle 4 carryover first_
 - [ ] **Cycle 6** — Weeks 11–13 — Framework Depth: API + Reporting — due 2026-09-06 · _SDET: DSA + Locust load test · 3-week cycle_
 - [ ] **Cycle 7** — Weeks 14–15 — Second Claude Code Skill — due 2026-09-20 · _SDET: DSA_
 - [ ] **Cycle 8** — Weeks 16–17 — OSS PR Round + Framework Polish — due 2026-10-04 · _SDET: DSA + System Design study_
@@ -34,8 +34,8 @@ Full design and failure protocol live in the spec (private repo).
 
 ## Current Cycle
 
-**Cycle 3** — Exam + First Skill
-Detail → [cycles/cycle-03.md](cycles/cycle-03.md)
+**Cycle 5** — Framework Depth: Fixtures + Config
+Detail → [cycles/cycle-05.md](cycles/cycle-05.md) · Cycle 4 carryover → [cycles/cycle-04.md](cycles/cycle-04.md)
 
 ## Last Status Check
 
@@ -43,4 +43,4 @@ See [status.md](status.md). Updated weekly by the Sunday Claude routine.
 
 ## Grace cycles used
 
-0 of 2 (resets after Cycle 12).
+1 of 2 (resets after Cycle 12). Grace used on **Cycle 3** — personal-life slip; no recorded slip, no protocol triggered.
