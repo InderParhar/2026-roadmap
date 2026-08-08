@@ -138,3 +138,17 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] Send proposal to team / manager — get a yes/no/discuss reply
   - [ ] **SDET / Track A (DSA) — starts:** create public repo `python-dsa` (MIT, GitHub Actions CI). ~3 problems/week (arrays/strings, hashmaps) — one pytest test per solution, CI green.
 - Risk: slipping — 0 of 7 tasks remain with only 1 day left in the cycle; the framework repo and DSA repo have not been created.
+
+---
+
+## 2026-08-08 (Cycle 5, week 1 of 2) — Auto check
+
+- Tasks: 0 of 5 done
+- Days remaining in cycle: 8
+- Outstanding tasks:
+  - [ ] Add 2 custom Playwright fixtures (authenticated user, pre-loaded test state)
+  - [ ] Read base URL + credentials from `.env` — never hardcode
+  - [ ] Refactor 3 tests to use soft assertions
+  - [ ] README: add "Architecture Decisions" section — 3 decisions with the WHY
+  - [ ] **SDET / Track A:** ~3 problems/week (two-pointer, sorting/searching) in `python-dsa`, each with pytest, CI green.
+- Risk: tight — 0 of 5 tasks done with 8 days remaining; 5 Cycle 4 carryover items also open, which the cycle note says must be done first.
