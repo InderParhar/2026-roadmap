@@ -152,3 +152,17 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] README: add "Architecture Decisions" section — 3 decisions with the WHY
   - [ ] **SDET / Track A:** ~3 problems/week (two-pointer, sorting/searching) in `python-dsa`, each with pytest, CI green.
 - Risk: tight — 0 of 5 tasks done with 8 days remaining; 5 Cycle 4 carryover items also open, which the cycle note says must be done first.
+
+---
+
+## 2026-08-15 (Cycle 5, week 2 of 2) — Auto check
+
+- Tasks: 0 of 5 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] Add 2 custom Playwright fixtures (authenticated user, pre-loaded test state)
+  - [ ] Read base URL + credentials from `.env` — never hardcode
+  - [ ] Refactor 3 tests to use soft assertions
+  - [ ] README: add "Architecture Decisions" section — 3 decisions with the WHY
+  - [ ] **SDET / Track A:** ~3 problems/week (two-pointer, sorting/searching) in `python-dsa`, each with pytest, CI green.
+- Risk: slipping — cycle closes tomorrow with 0 of 5 tasks done; no progress since last week's check.
