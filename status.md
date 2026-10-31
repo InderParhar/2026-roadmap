@@ -166,3 +166,17 @@ Sunday routine not yet configured. First automated entry expected: 2026-06-14 (S
   - [ ] README: add "Architecture Decisions" section — 3 decisions with the WHY
   - [ ] **SDET / Track A:** ~3 problems/week (two-pointer, sorting/searching) in `python-dsa`, each with pytest, CI green.
 - Risk: slipping — cycle closes tomorrow with 0 of 5 tasks done; no progress since last week's check.
+
+---
+
+## 2026-10-31 (Cycle 10, week 2 of 2) — Auto check
+
+- Tasks: 0 of 5 done
+- Days remaining in cycle: 1
+- Outstanding tasks:
+  - [ ] Identify 5 roles matching the positioning (AI-adjacent QA / QE at tech companies)
+  - [ ] Cover-note tailoring (NOT full resume rewrite — resume update is user-controlled)
+  - [ ] Include links to roadmap repo, framework repo, and Claude Code skills as portfolio
+  - [ ] **SDET / Track A:** shift to mixed timed problem sets in `python-dsa`.
+  - [ ] **SDET / Track C:** system-design study (test-data strategy); draft the worked scenarios for the interview-prep doc.
+- Risk: slipping — 0 of 5 tasks done with 1 day left in the cycle; no job applications submitted yet.
